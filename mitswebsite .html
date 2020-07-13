@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MITS | HOME </title>
+	<meta charset="utf-8">
+	<meta name="author" content="MUKUL SAVITA">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<meta http-equiv="refresh" content="20">-->
+	<style>
+		.image1{
+		background-repeat: no-repeat;
+		height: 40px;
+		width: 60px;}
+			.image2{
+		background-repeat: no-repeat; height: 40px; 
+		width: 60px;}
+			.image3{
+		background-repeat: no-repeat; height: 40px; 
+		width: 60px;}
+			.image4{
+		background-repeat: no-repeat; height: 40px; 
+		width: 60px;}
+			.image5{
+		background-repeat: no-repeat; height: 40px; 
+		width: 60px;}
+		.image6{
+		background-repeat: no-repeat; height: 40px; 
+		width: 60px; }
+		.mitsimage{
+				margin-left: 30px; margin-top: -20px; height: 150px; width: 220px; background-repeat: no-repeat;}
+		#name{
+		background-image: url("https://mitsgwalior.in/img/headimg2019m.png"); margin-left: 8px; 
+		margin-top: 30px; height: 80px; width: 100%; background-repeat: no-repeat; cursor: pointer;}
+		
+		#nav1{
+		background-color: lightgray; opacity: 0.4; width: 85px; height: 5px; margin-left: 18px; cursor: pointer;}
+		#nav2{
+		background-color: lightgray; opacity: 0.4; width: 65px; height: 5px; margin-left: 50px; cursor: pointer;}
+		#nav3{
+		background-color: lightgray; opacity: 0.4; width: 95px; height: 5px; margin-left: 50px; cursor: pointer;}				
+		#nav4{
+		background-color: lightgray; opacity: 0.4; width: 135px; height: 5px; margin-left: 52px; cursor: pointer;}
+		#nav5{
+		background-color: lightgray; opacity: 0.4; width: 155px; height: 5px; margin-left: 52px; cursor: pointer;}
+		#nav6{
+		background-color: lightgray; opacity: 0.4; width: 92px; height: 5px; margin-left: 53px; cursor: pointer;}
+		#nav7{
+		background-color: lightgray; opacity: 0.4; width: 85px; height: 5px; margin-left: 50px; cursor: pointer;}
+	
+		/*.director{
+		background-image: url("https://mitsgwalior.in/img/Director_img.jpg");  background-repeat: no-repeat; }*/
+		
+		.gallery{
+		margin-left: 20px;
+		animation-name: animation; background-repeat: no-repeat; background:cover; animation-duration:120s; width:600px; height: 420px;
+		}
+		@keyframes animation{
+		0%{background-image: url(https://mitsgwalior.in/front/2.jpg)}
+		5%{background-image: url("https://mitsgwalior.in/front/5.jpg")}
+		10%{background-image: url("https://mitsgwalior.in/front/3.jpg")}
+		20%{background-image: url("https://mitsgwalior.in/front/17.jpg")}
+		30%{background-image: url("https://mitsgwalior.in/img/308600x320.jpg")}
+		40%{background-image: url("https://mitsgwalior.in/login/photo/n4.JPG")}
+		50%{background-image: url("https://mitsgwalior.in/login/photo/n5.JPG")}
+		60%{background-image: url("https://mitsgwalior.in/login/photo/n3.JPG")}
+		70%{background-image: url("https://mitsgwalior.in/front/6.jpg")}
+		80%{background-image: url("https://mitsgwalior.in/login/photo/n1.JPG")}
+		90%{background-image: url("https://mitsgwalior.in/img/13600x300.jpg")}
+		100%{background-image: url("https://mitsgwalior.in/img/resizedimageMITS.jpg")}
+			}
+		
+			.visionmission{
+				width:400px; 
+				height:400px; 
+				margin-top:5px; 
+				background-repeat: no-repeat;
+			 	margin-left: 30px;
+				 }
+			
+			ul{
+		display:flex; }
+
+		.gray_portion{
+			background-color:#f9f9f9; 
+			display: flex; 
+			flex-direction: column;  
+			width:1516px; height:100%; 
+			margin-left:-5px;
+			margin-top: 50px;
+		    border-bottom: .3px gray solid;
+			height: 100%;
+		}
+
+		.firstrow{
+			margin-top: 30px; 
+			background:#f9f9f9; 
+			display:flex; 
+			margin-left: 50px; 
+			flex-wrap:wrap;
+		}
+		.secondrow{
+			margin-left:50px; 
+			display: flex; 
+			background-color:#f9f9f9; 
+			flex-wrap:wrap;
+		}
+		.fourthrow{
+			display: flex; 
+			justify-content: none; 
+			flex-wrap: wrap;
+		}
+
+		.buttons{
+			cursor:pointer; 
+			margin:0px; 
+			width:185px; 
+			height: 40px; 
+			background-color:#f9f9f9; 
+			border:0.5px solid lightgray;
+
+		}
+		
+		ul li{
+		list-style:none;
+		}
+		
+		ul li a{
+		position:relative;
+		display:block;
+		padding:10px 20px;
+		font-weight: bold;
+		color: #262626;
+		text-decoration: none;
+		}
+		
+		ul li.active a{
+		background: green;
+		color: #fff;}
+		
+		.links:hover{
+		color:red; cursor:pointer;}
+		
+		.btnm:hover{
+		opacity:1;}
+		
+		div button:hover{ 
+		opacity: 0.5;}
+		
+		.life {
+			text-decoration:none; 
+			color:#3a7cc6; 
+			font-weight: bold;
+			}
+		
+		#NPTEL:hover{
+			color:red; 
+			cursor:pointer;
+		}
+		
+		#Nptelbutton{
+		 margin-left:110px; 
+		 color;blue; 
+		 background:white; 
+		 border:none; 
+		 margin-top:-20px;
+		 }
+		
+		#Nptelbutton:hover{ 
+			opacity:0.2px; 
+			cursor:pointer;
+		}
+		
+		.Nptelimg:hover{
+			transition:0.5s; 
+			transform:scale(1.2); 
+			cursor:pointer; 
+			color:gray;
+		}
+		
+		.Nptelimg{ 
+			margin-left:10px;
+			margin-top:0px;
+			margin-right:18px; 
+			margin-bottom:5px;
+			}
+
+		.Activities{
+			margin-top: 10px;
+			display: flex;
+			width: 760px;
+			justify-content: none;
+			
+		}
+
+		.lastrow{
+			margin-top: 10px ;
+			margin-left: -20px;
+			display: flex;
+			justify-content: center;
+			font-family: courier;
+
+		}
+
+		.lastcontainer{
+		
+			display: flex;
+			background-color: rgba(255, 255, 255, 0.705);
+			height: 430px;
+			width: 60%;
+			justify-content:space-evenly;
+			
+		}
+
+		.index, .lgallery{
+			display: flex; 
+			flex-direction: column; 
+			font-family: arial;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		
+		#lli{
+			padding: 7px;
+		}
+
+		#lli:hover{
+			color: red;
+			cursor: pointer;
+		}
+	</style>
+	<script>
+			function myfunction(){
+						document.getElementById("btn1").style.background = "white";
+						document.getElementById("btn2").style.background = "#f9f9f9";
+						document.getElementById("btn3").style.background = "#f9f9f9";						
+						}
+						function myfunction1(){
+						document.getElementById("btn2").style.background = "white";
+						document.getElementById("btn1").style.background = "#f9f9f9";
+						document.getElementById("btn3").style.background = "#f9f9f9";
+						}
+						
+						function myfunction2(){
+						document.getElementById("btn3").style.background = "white";
+						document.getElementById("btn1").style.background = "#f9f9f9";
+						document.getElementById("btn2").style.background = "#f9f9f9";
+						}
+						
+						function myfunction3(){
+						document.getElementById("life1").style.color = "#555";
+						document.getElementById("life2").style.color = "#2a7ac6";
+						document.getElementById("life3").style.color = "#2a7ac6";
+						}
+						
+						function myfunction4(){
+						document.getElementById("life2").style.color = "#555";
+						document.getElementById("life1").style.color = "#2a7ac6";
+						document.getElementById("life3").style.color = "#2a7ac6";
+						}
+						
+						function myfunction5(){
+						document.getElementById("life3").style.color = "#555";
+						document.getElementById("life2").style.color = "#2a7ac6";
+						document.getElementById("life1").style.color = "#2a7ac6";
+						}
+	</script>
+	
+</head>
+<body>
+
+
+<!-- WHITE PORTION START ///////////// -->
+
+
+<div style="display: flex; flex-wrap: wrap;">
+	<div style="display: flex; flex-direction: row-reverse; width: 1500px; height:2px;"> 
+		<div class=" image1"><a href="http://moodle.mitsgwalior.in/" target="_blank">
+			<img src="https://mitsgwalior.in/img/moodle.png" ></a>
+		</div>
+		<div class="image2" >
+			<a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGH8kR4NRgudAAAAXLMgh44Hqp9Z54FM-S4zS1-w-6EGao997V50x33oa8F2RYpDxf_oVA7MtLIsE3HKfvNb9tHAKtgRFYQc_ayXboSEXMbbYkOdiqLz2tu1ulV1HOY8K1FW_U=&originalReferer=https://mitsgwalior.in/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmadhav-institute-of-technology-and-science-gwalior-mp-india-49033419a%2F" target="_blank">
+														<img src="https://mitsgwalior.in/img/linkedin.png" > </a> 
+		</div>
+		<div class="image3" >
+			<a href="https://www.instagram.com/mits_gwalior/?hl=en" target="_blank"><img src="https://mitsgwalior.in/img/instagram.jpg"></a> 
+		</div>
+		<div class="image4">
+			<a href="https://twitter.com/MITS_Gwalior" target="_blank"><img src="https://mitsgwalior.in/img/Twitter_Logo.png"></a> 
+		</div>
+		<div class="image5" >
+			<a href="https://www.facebook.com/Madhav-Institute-of-Technology-Science-Gwalior-MP-India-102055234637800/?modal=admin_todo_tour" target="_blank">
+												<img src="https://mitsgwalior.in/img/facebook-icon.png" > </a>
+		</div>
+	
+		<div class="image6" ><a href="https://www.youtube.com/channel/UCKmCxK6awxsc4sV9PPETwHg/videos" target="_blank">
+			<img src="https://mitsgwalior.in/img/mitslive.jpg" ></a> 
+		</div>
+	</div>
+	<br>
+	<div style="display: flex;   width: 1480px; justify-content: center; margin-top: 0px; margin-left: 150px;">
+		<div class="mitsimage">
+			<img src="https://mitsgwalior.in/img/newsite-logo1.png" style="cursor:pointer;"> 
+		</div>
+		
+		<div id="name"> 
+		</div>
+	</div>
+	<div style="display: flex; flex-wrap: wrap;  width: 1480px;  center; margin-top: 65px; margin-left: 220px;" >
+		<div  id="nav1"></div>
+		<div  id="nav2"></div>
+		<div  id="nav3"></div>
+		<div  id="nav4"></div>
+		<div  id="nav5"></div>
+		<div  id="nav6"></div>
+		<div  id="nav7"></div>
+		
+	</div>
+		
+		
+		
+	<div style="display: flex; flex-wrap: wrap; margin-left: 220px; margin-top:20px;">	
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 20px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">INSTITUTION</a>
+		</div>
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 50px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">COURSES</a>
+		</div> 
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 50px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">DEPARTMENTS</a>
+		</div>
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 50px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">CENTRAL FACILITIES</a>
+		</div>
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 50px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">TRAINING & PLACEMENT</a>
+		</div>
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 50px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">NEWS LETTER</a>
+		</div>
+		<div style="font-family: arial; font-size: 13px; font-weight: bold; margin-left: 50px; cursor: pointer;" >
+			<a href="##" style="text-decoration:none; color: black;">CONTACT US </a>
+		</div>
+	</div>
+	<br>
+</div>
+
+<!--GRAY PORTION START ////////////-->
+
+
+<div class="gray_portion">
+
+	
+	<!--FIRST ROW ///-->
+
+	
+	<div class="firstrow"> 
+		<div ><br><br><br>
+			<h3 style="margin-left:100px; font-family: arial; font-size: 15px;">DIRECTOR'S MESSSAGE</h3>
+				<div style=" width: 100%; margin-top: 20px;  "> <hr  style="background-color: lightgray; width:250px; margin-left: 100px;"> </hr></div>
+				<div style="margin-left: 100px;">
+					<img src="https://mitsgwalior.in/img/Director_img.jpg" style=" float:left; margin-right:10px; margin-bottom:10px; width:100px; "> 
+						<div style="color: #4682B4; width:260px; opacity:0.8; font-size: 14px; font-family:courier;">It has been said over centuries that “Change is the only 
+							thing that is constant”.   But never before, in the history of mankind, has the rate of change 
+							been as phenomenal as it has been during the last couple of years, particularly in thetechnological arena.<a href="https://mitsgwalior.in/message.php">
+								<button style="cursor:pointer; color:white; background:#666; opacity:0.6;" class="btnm">MORE</button></a>
+						</div>
+				    </img>
+				</div>
+		</div>
+			<div class="gallery"> 
+			</div>
+			<div class="visionmission"><img src="https://mitsgwalior.in/img/mission2018.png" width="255px" height="330px">
+			</div>
+	
+	 </div>
+
+	
+	<!--SECOND ROW /// -->
+
+		<div class="secondrow">
+		
+			<div>
+			<p style="font-family:arial; font-weight: bold; margin-left:100px; margin-top:0px;"> LINKS</p>
+				<div style="display: flex; flex-wrap: wrap; flex-direction: column; margin-left: 100px; margin-top:20px;">			
+					<div class="links" style="background-color:#8fbc8f; width:230px; height:15px; padding:15px; font-family:arial; font-weight: bold; opacity: 0.9; pointer:cursor;">Academic Calender</div>
+					<div class="links" style="background-color:#ffb6c1; width:230px; height:15px; padding:15px; margin-top:8px; font-family: arial; font-weight: bold; opacity: 0.9; ">Flexible Curriculum</div>
+					<div class="links" style="background-color:#ffdab3; width:230px; height:15px; padding:15px; margin-top:8px; font-family: arial; font-weight: bold; opacity: 0.9;"> Girls Grievance Cell</div>
+					<div class="links" style="background-color:#33cccc; width:230px; height:15px; padding:15px; margin-top:8px; font-family: arial; font-weight: bold; opacity: 0.9;"> Plagiarism Policy</div>
+					<div class="links" style="background-color:#9c0; width:230px; height:15px; padding:15px; margin-top:8px; font-family: arial; font-weight: bold; opacity: 0.9;"> Quality Assurance</div>
+					<div class="links" style="background-color:#ff8000; width:230px; height:15px; padding:15px; margin-top:8px; font-family: arial; font-weight: bold; opacity: 0.9;"> Admission 2019-20</div>
+				</div>
+			</div>
+		
+			<div>
+				<p style="font-family:arial; font-weight: bold; margin-left:40px; margin-top:0px;"> CAMPUS LIFE</p>
+				<div style="display:flex; flex-wrap: wrap; margin-left: 40px; margin-top:0px; background-color:#f9f9f9;">
+				<div><button id="btn1" style="cursor:pointer; margin:0px; width:280px; height: 40px; background-color:#f9f9f9; border:0.5px solid lightgray;" onclick="myfunction()">
+					<a href="default.html" target="frame1" class="life" onclick="myfunction3()" id="life1">Chapters/Association</a></button>
+				</div>
+				<div><button style="cursor:pointer; margin:0px; width:155px; height: 40px; background-color:#f9f9f9; border:0.5px solid lightgray;" id="btn2" onclick="myfunction1()">
+					<a href="default2.html" target="frame1" class="life" onclick="myfunction4()" id="life2">Videos</a></button>
+				</div>
+				<div><button style="cursor:pointer; margin:0px; width:150px; height: 40px; background-color:#f9f9f9; border:0.5px solid lightgray;" id="btn3" onclick="myfunction2()">
+					<a href="default3.html" target="frame1" class="life" onclick="myfunction5()" id="life3">Gallery</a></button>
+				</div>
+				</div>												
+				<iframe src="default.html" name="frame1" style="margin-left: 40px; width:585px; height: 280px; border:1px; overflow: auto;"></iframe>
+			</div>
+			<div style="margin-left:20px;">
+					<p style="font-family:arial; font-weight: bold; margin-left:0px; margin-top:0px;">DOWNLOADS</p>
+				<div style="width:270px; height:75px; background:white; display:flex; flex-wrap: wrap; align-items:center; border:0.5px solid lightgray;">
+					<img src="https://mitsgwalior.in/img/academic.jpg" height="60px" style="margin-left:10px; cursor:pointer;">
+				</div>
+				<div style="width:270px; height:75px; background:white; display:flex; flex-wrap: wrap; align-items:center; border:0.5px solid lightgray; margin-top:5px;">
+					<img src="https://mitsgwalior.in/img/exambutton.jpg" height="60px" style="margin-left:10px; cursor:pointer;">
+				</div>
+				<div style="width:270px; height:75px; background:white; display:flex; flex-wrap: wrap; align-items:center; border:0.5px solid lightgray; margin-top:5px;">
+					<img src="https://mitsgwalior.in/img/accountsbutton.jpg" height="60px" style="margin-left:10px; cursor:pointer;">
+				</div>
+				<div style="width:270px; height:75px; background:white; display:flex; flex-wrap: wrap; align-items:center; border:0.5px solid lightgray; margin-top:5px;">
+					<img src="https://mitsgwalior.in/img/others1button.jpg" height="60px" style="margin-left:10px; cursor:pointer;">
+				</div>		
+			</div>
+		</div>
+	
+
+	
+	<!--THIRD ROW /// -->
+	
+	
+	<div>
+		<div style=" margin-top:70px; margin-left:145px; ">
+		<p style="font-family:arial; font-weight: bold;  margin-top:0px;">HIGHLIGHTS</p>
+		<div style="display:flex; flex-wrap: wrap; margin-left: 0px; margin-top:0px; background-color:#f9f9f9;">
+				<div><button id="btn1" class="buttons" style="cursor:pointer; margin:0px; width:100px; height: 40px; background-color:#f9f9f9; border:0.5px solid lightgray;" onclick="">
+					<a href="H1attach.html" target="frame2" class="life" onclick="" id="life1">All</a></button>
+				</div>
+				<div><button class="buttons" style=" width:155px; " id="btn2" onclick="">
+					<a href="H2attach.html" target="frame2" class="life" onclick="" id="life2">Academic</a></button>
+				</div>
+				<div><button class="buttons" style=" width:160px; "  id="btn3" onclick="">
+					<a href="H3attach.html" target="frame2" class="life" onclick="" id="life3">Exam</a></button>
+				</div>
+				<div><button class="buttons" style=" width:150px; " id="btn3" onclick="">
+					<a href="H4attach.html" target="frame2" class="life" onclick="" id="life3">Tender</a></button>
+				</div>
+				<div><button class="buttons" style=" width:160px; "  id="btn3" onclick="">
+					<a href="H4attach.html" target="frame2" class="life" onclick="" id="life3">Recruitment</a></button>
+				</div>
+				
+				<div style="margin-left:30px; margin-top:-80px; background:white; width:430px; "><p style="opacity:0.7; margin-left:6px; font-weight:none; font-family:courier;">NEWS & EVENTS</p>
+									<p style="font-family:arial; font-weight:bold; margin-left:6px;  margin-top:10px; opacity:0.2px;" id="NPTEL"> NPTEL LOCAL CHAPTERS RANKING 2019</p>
+									<table border="1" >
+										<tr style="border-style:groove; border-color:gray;"> <td style="color:#16a990; border-width:0px 1px 0px 0px;  font-weight:none; padding:6px;">2019</td>
+											<td style="border:none; padding:6px;">-</td></tr>
+											
+									</table><br>
+							<abbr title="NPTEL"><img src="https://mitsgwalior.in/login/event_upload/nptel.jpg" width="90px" height="85px" style="float:left;" class="Nptelimg"/></abbr>
+							<p style="margin-top:0px;  font-family:courier; ">MITS Ranks 31st and secured AA Category among 2900+ local chapters in the
+							country in National Programme on Technology Enhanced Learning (NPTEL) MHRD </p>
+							<a href="https://mitsgwalior.in/login/upload/NPTELtop100_jul_dec19.pdf" target="_blank"><button id="Nptelbutton"><abbr title="read more" style="text-decoration:none; color:blue; opacity:0.6">DOWNLOAD</abbr></button></a>
+							<br><br><p><hr style="opacity:0.5" color:gray;></p>
+							<br>
+				</div>
+				
+				
+		</div>												
+			<iframe src="H1attach.html" name="frame2" style="margin-left: -45px; margin-top:-220px; width:775px; height: 200px; border:1px; overflow: auto;"></iframe>
+			
+			
+		</div>
+		
+
+	</div>
+
+
+
+	<!--FOURTH ROW /// -->
+
+
+		<div class="fourthrow">
+			<div style="margin-left: 145px; margin-top: 35px;">
+				<span style=" font-family:arial; font-weight: bold;  margin-top:0px;">ACTIVITIES</span>
+				<div class="Activities">
+					<button class="buttons"  id="btn2" onclick="">
+						<a href="4r.1.html" target="frame3" class="life">Workshop</a></button>
+
+						<button class="buttons"  id="btn2" onclick="">
+							<a href="4r.2.html" target="frame3" class="life">Clubs</a></button>
+
+							<button class="buttons"  id="btn2" onclick="">
+								<a href="4r.3.html" target="frame3" class="life">Chapters</a></button>
+								
+								<button class="buttons"  id="btn2" onclick="">
+									<a href="4r.3.html" target="frame3" class="life">Sports</a></button>
+			
+				</div>
+			<iframe src="4r.1.html" name="frame3" style="margin-left: -15px; margin-top: 8px; width:755px; height: 220px; border:1px; overflow: auto;"></iframe>
+		</div>
+		<div style=" margin-top: 40px;">
+			<span style=" font-family:arial; font-weight: bold; ">QUICK LINKS</span>
+			<table style="margin-top: 20px;">
+				<tr>
+					<td><a href="http://moodle.mitsgwalior.in/" target="_blank"><img src="https://mitsgwalior.in/quicklinks/moodle1.png"></a></td>
+					<td><a href="http://ims.mitsgwalior.in/" target="_blank"><img src="https://mitsgwalior.in/quicklinks/imsn.png"></a></td>
+					<td><a href="https://mitsgwalior.in/nirf.php" target="_blank"><img src="https://mitsgwalior.in/quicklinks/nirfn.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://mis.mitsgwalior.in/User_Mgmt/Frm_userlogin.aspx" target="_blank"><img src="https://mitsgwalior.in/quicklinks/imss.jpg"></a></td>
+					<td><a href="https://sites.google.com/view/nptelmits/home" target="_blank"><img src="https://mitsgwalior.in/quicklinks/nptellc.jpg"></a></td>
+					<td><a href="https://mitsgwalior.in/login/upload/SSR%20MITS%20GWALIOR.pdf" target="_blank"><img src="https://mitsgwalior.in/quicklinks/naacn.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="https://mitsredressal.weshinetech.in/ep_rds_web_landing" target="_blank"><img src="https://mitsgwalior.in/quicklinks/dep.jpg"></a></td>
+					<td><a href="https://mitsgwalior.in/admission.php" target="_blank"><img src="https://mitsgwalior.in/quicklinks/admission.jpg"></a></td>
+					<td><a href="https://mitsgwalior.in/login/upload/Club%20List%202019.pdf" target="_blank"><img src="https://mitsgwalior.in/quicklinks/clubs.jpg"></a></td>
+				</tr>
+			</table>
+		</div>
+
+
+		</div>
+
+		
+</div>	
+ 
+<!--LAST ROW START//////////-->
+
+<div class="lastrow">
+		<img src="mainhall.jpg" width="1530px" height="430px;" style="position: absolute; z-index: -2; margin-top: 20px;">
+	<div class="lastcontainer">
+				
+				<div>
+					<span style="margin-left: 45px;">QUICK LINKS</span>
+					<ul class="index" >
+						<li id="lli">TENDERS<hr></li>
+						<li id="lli">NPTEL/LOCAL CHAPTERS<hr></li>
+						<li id="lli">STARTUP CELL<hr></li>
+						<li id="lli">REMEDIAL/BRIDGE CLASSES TIME-TABEL<hr></TIME-TABLE></li>
+						<li id="lli">DISABILITY RESOURCE CENTER<hr></li>
+						<li id="lli">INNOVATION CELL<hr></li>
+						<li id="lli">AICTE COVID19 HELPLINE<hr></li>
+						<li id="lli">EDC</li>
+					</ul>
+				</div>
+
+			<div>
+				<span style="margin-left: 45px;"> ////</span>
+					<ul class="index" >
+					<li id="lli">TEQIP-III <hr></li>
+					<li id="lli">MOODLE <hr></li>
+					<li id="lli">NPTEL NEWS LETTER JAN-JULY 2018<hr></li>
+					<li id="lli">FREQUENTLY ASKED QUESTIONS (FAQS)<hr></li>
+					<li id="lli">ICT/DIGITAL INITIATIVES BY MHRD<hr></li>
+					<li id="lli">ARCHIVES</li>
+				</ul>
+		
+			</div>
+			
+			<!--<div class="lgallery">
+				<span> GALLERY </span>
+				<table>
+					<tr >
+						<td><img src="https://mitsgwalior.in/gallery/f1.JPG" height="50px" width="70px"></td>
+						<td><img src="https://mitsgwalior.in/gallery/f2.JPG"></td>
+						<td><img src="https://mitsgwalior.in/gallery/f3.JPG"></td>
+						<td><img src="https://mitsgwalior.in/gallery/f4.JPG"></td>
+					</tr>
+				</table>
+			</div>-->
+	</div>
+</div>
+	
+</body>
+</html>
